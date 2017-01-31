@@ -1,0 +1,16 @@
+<DatosNac>
+	<Persona>
+		<Nombre>Juan</Nombre>
+		<Fecha>15/10/1971</Fecha>    
+		<Estado>NL</Estado>    
+		<Peso>3.1</Peso>          
+		<Estatura>45</Estatura>
+	</Persona>
+	<Persona>
+		<Nombre>Maribel</Nombre>
+		<Fecha>01/08/1975</Fecha>    
+		<Estado>MX</Estado>    
+		<Peso>2.8</Peso>          
+		<Estatura>40</Estatura>
+	</Persona>
+</DatosNac>
