@@ -1,0 +1,27 @@
+ASP
+
+<%@ Language="VBScript"%>
+	<%
+		lNombre=Request("Nombre")
+		lApellido=Request("Apellidos")
+		lMatricula=Request("Matricula")	
+		
+response.write(lNombre)
+response.write(lApellidos)
+response.write(lMatricula)
+%>
+
+HTML
+<Html>
+	<head>
+		<title>Practica</title>
+	</head>
+	<Body>
+		<Form Method="Post" Action="guardar.asp">
+		Nombre: <Input type="text" Name="Nombre"> </br>
+		Apellidos: <Input type="text" Name="Apellidos"> </br>
+		Matricula: <Input type="text" Name="Matricula"></br>
+		<input type="submit">	
+		</Form>
+	</Body>
+</Html>
